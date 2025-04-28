@@ -4503,7 +4503,7 @@
       "dev": true,
       "license": "MIT",
       "peerDependencies": {
-        "picomatch": "^3 || ^4"
+        "picomatch": "4.0.2"
       },
       "peerDependenciesMeta": {
         "picomatch": {
