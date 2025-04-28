@@ -7544,5 +7544,8 @@
         "url": "https://github.com/sponsors/sindresorhus"
       }
     }
+  },
+  "dependencies": {
+    "next": "^15.3.1"
   }
 }

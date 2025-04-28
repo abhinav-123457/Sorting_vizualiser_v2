@@ -1,6 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file://C%3A/Users/abhin/OneDrive/Desktop/sorting-visualizer-mui/src/components/theme-provider.tsx"],"sourcesContent":["'use client'\r\n\r\nimport { createTheme, ThemeProvider as MUIThemeProvider } from '@mui/material/styles';\r\nimport CssBaseline from '@mui/material/CssBaseline';\r\nimport { ReactNode } from 'react';\r\n\r\n// Create a dark theme\r\nconst darkTheme = createTheme({\r\n  palette: {\r\n    mode: 'dark',\r\n    primary: {\r\n      main: '#90caf9',\r\n    },\r\n    secondary: {\r\n      main: '#f48fb1',\r\n    },\r\n    background: {\r\n      default: '#121212',\r\n      paper: '#1e1e1e',\r\n    },\r\n  },\r\n});\r\n\r\nexport function ThemeProvider({ children }: { children: ReactNode }) {\r\n  return (\r\n    <MUIThemeProvider theme={darkTheme}>\r\n      <CssBaseline />\r\n      {children}\r\n    </MUIThemeProvider>\r\n  );\r\n}"],"names":[],"mappings":";;;;AAEA;AAAA;AACA;AAHA;;;;AAMA,sBAAsB;AACtB,MAAM,YAAY,CAAA,GAAA,8MAAA,CAAA,cAAW,AAAD,EAAE;IAC5B,SAAS;QACP,MAAM;QACN,SAAS;YACP,MAAM;QACR;QACA,WAAW;YACT,MAAM;QACR;QACA,YAAY;YACV,SAAS;YACT,OAAO;QACT;IACF;AACF;AAEO,SAAS,cAAc,EAAE,QAAQ,EAA2B;IACjE,qBACE,6LAAC,kNAAA,CAAA,gBAAgB;QAAC,OAAO;;0BACvB,6LAAC,yKAAA,CAAA,UAAW;;;;;YACX;;;;;;;AAGP;KAPgB","debugId":null}}]
-}
